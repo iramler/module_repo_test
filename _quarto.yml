@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "SCORE Module Repository"
+  page-footer: "Maintained by [Ron Yurko](https://www.stat.cmu.edu/~ryurko/)"
+  cookie-consent: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - by-statsds-topic.qmd
+      - href: https://data.scorenetwork.org/
+        text: Data Repository
+    right:
+      - icon: twitter
+        href: https://twitter.com/scorenetworkorg
+      - icon: linkedin
+        href: https://www.linkedin.com/company/scorenetworkorg/
+  sidebar:
+    contents: auto
+    collapse-level: 1
+
+format:
+  html:
+    theme:
+      - cosmo
+      - score.scss
+    toc: true
+
+execute:
+  freeze: auto

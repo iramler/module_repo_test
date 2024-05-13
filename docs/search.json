@@ -1,0 +1,200 @@
+[
+  {
+    "objectID": "triathlons/ironman-triathlete-performance.html",
+    "href": "triathlons/ironman-triathlete-performance.html",
+    "title": "Ironman Triathlete Performance",
+    "section": "",
+    "text": "The motivation for this data analysis is to explore the relationships between swim times, bike times, and run times (in minutes) in order to gain insights into the performance patterns of the athletes. By analyzing these relationships, we can understand the interplay between different segments of the race and potentially identify areas of improvement for athletes. For this activity, we will specifically focus on times from finishers in the years 2018 and 2019.",
+    "crumbs": [
+      "Home",
+      "Triathlons",
+      "Ironman Triathlete Performance"
+    ]
+  },
+  {
+    "objectID": "triathlons/ironman-triathlete-performance.html#motivation",
+    "href": "triathlons/ironman-triathlete-performance.html#motivation",
+    "title": "Ironman Triathlete Performance",
+    "section": "",
+    "text": "The motivation for this data analysis is to explore the relationships between swim times, bike times, and run times (in minutes) in order to gain insights into the performance patterns of the athletes. By analyzing these relationships, we can understand the interplay between different segments of the race and potentially identify areas of improvement for athletes. For this activity, we will specifically focus on times from finishers in the years 2018 and 2019.",
+    "crumbs": [
+      "Home",
+      "Triathlons",
+      "Ironman Triathlete Performance"
+    ]
+  },
+  {
+    "objectID": "triathlons/ironman-triathlete-performance.html#module",
+    "href": "triathlons/ironman-triathlete-performance.html#module",
+    "title": "Ironman Triathlete Performance",
+    "section": "Module",
+    "text": "Module\nhttps://isle.stat.cmu.edu/SCORE/ironman_triathlon/",
+    "crumbs": [
+      "Home",
+      "Triathlons",
+      "Ironman Triathlete Performance"
+    ]
+  },
+  {
+    "objectID": "marathons/boston-marathon-finish_times-2023.html",
+    "href": "marathons/boston-marathon-finish_times-2023.html",
+    "title": "2023 Boston Marathon - Variability in Finish Times",
+    "section": "",
+    "text": "Please note that these material have not yet completed the required pedagogical and industry peer-reviews to become a published module on the SCORE Network. However, instructors are still welcome to use these materials if they are so inclined.\n\n\n\n\n\n\nFor this activity, you will be exploring the result times from female and male runners that finished the 2023 Boston Marathon.\nIn particular, you will examine both visualizations and summary statistics of result times to explore the variation in finish times as well as use comparative techniques, such as z-scores, to compare and contrast male and female participants.\nInvestigating these trends is useful for several reasons. Firstly, exploring these trends can help to deepen our understanding of how different factors, such as gender, impact marathon performances. Secondly, analyzing the distribution of finish times and the performance of top finishers against the masses provides insights into the competitive landscape of the marathon. It can identify outliers or exceptional performances and understand how elite athletes compare to average participants. Although not directly connected to this data, analyses like these can inform training strategies, highlight the effectiveness of different preparation methods, and inspire both new and experienced runners by showcasing the range of achievable performances.\n\n\n\n\n\n\nActivity Length\n\n\n\n\n\nThis activity would be suitable for an in-class example or quiz.\n\n\n\n\n\n\n\n\n\nLearning Objectives\n\n\n\n\n\nBy the end of the activity, you will be able to:\n\nAnalyze distributions using histograms\nIdentify potential confounding variables to explain bimodal data\nCompare and contrast distributions for a pair of groups\nCalculate and compare z-scores for individual cases\n\n\n\n\n\n\n\n\n\n\nMethods\n\n\n\n\n\nFor this activity, students will primarily use basic concepts of histograms and summary statistics to analyze distributions. Students will also likely require knowledge of z-scores.\n\n\n\n\n\n\n\n\n\nTechnology Requiremens\n\n\n\n\n\nThe provided worksheets do not require any specific statistical software. (Although they will likely require access to a calculator.)\nSince the data are provided, instructors are encouraged to modify the worksheets to have student construct visualizations and calculate summary statistics using whichever software they choose.\n\n\n\n\n\n\nThe data set contains 26598 rows and 15 columns. Each row represents a runner who completed the Boston Marathon in 2023\nDownload data: boston_marathon_2023.csv\n\n\nVariable Descriptions\n\n\n\n\n\n\n\n\nVariable\nDescription\n\n\n\n\nage_group\nage group of the runner\n\n\nplace_overall\nfinishing place of the runner out of all runners\n\n\nplace_gender\nfinishing place of runner among the same gender\n\n\nplace_division\nfinishing place of runner among runners of the same gender and age group\n\n\nname\nname of runner\n\n\ngender\ngender of runner\n\n\nteam\nteam the runner is affiliated with\n\n\nbib_number\nbib number of runner\n\n\nhalf_time\nhalf marathon time of runner\n\n\nfinish_net\nfinishing time timed from when they cross the starting gate\n\n\nfinish_gun\nfinishing time of runner timed from when the starter gun is fired\n\n\nhalf_time_sec\nhalf marathon time in seconds\n\n\nfinish_net_sec\nnet finish in seconds\n\n\nfinish_gun_sec\ngun finish in seconds\n\n\nfinish_net_minutes\nnet finish in minutes\n\n\n\nData Source\nBoston Athletic Association\n\n\n\n\nClass handout\nClass handout - with solutions\n\n\n\n\n\n\nConclusion\n\n\n\n\n\nIn conclusion, the Boston Marathon Times worksheet provides valuable learning opportunities for students in several key areas. It allows them to understand reasons by variability might exist and to discover multimodal distributions can occur simply due to excluding an important explanatory variable that otherwise confounds the analysis. The calculation of z-scores or other similar measurement of relative location enables students to compare and contrast the remarkable achievements of the top female and male finishers, shedding light on their talent in their respective fields. Overall, this worksheet allows students to critically analyze the 2023 marathon result data and draw meaningful conclusions about the extraordinary performances of athletes in the race.\n\n\n\n\n\n\nIvan Ramler (St. Lawrence University), Jack Fay (St. Lawrence University)",
+    "crumbs": [
+      "Home",
+      "Marathons",
+      "2023 Boston Marathon - Variability in Finish Times"
+    ]
+  },
+  {
+    "objectID": "marathons/boston-marathon-finish_times-2023.html#module",
+    "href": "marathons/boston-marathon-finish_times-2023.html#module",
+    "title": "2023 Boston Marathon - Variability in Finish Times",
+    "section": "",
+    "text": "Please note that these material have not yet completed the required pedagogical and industry peer-reviews to become a published module on the SCORE Network. However, instructors are still welcome to use these materials if they are so inclined.\n\n\n\n\n\n\nFor this activity, you will be exploring the result times from female and male runners that finished the 2023 Boston Marathon.\nIn particular, you will examine both visualizations and summary statistics of result times to explore the variation in finish times as well as use comparative techniques, such as z-scores, to compare and contrast male and female participants.\nInvestigating these trends is useful for several reasons. Firstly, exploring these trends can help to deepen our understanding of how different factors, such as gender, impact marathon performances. Secondly, analyzing the distribution of finish times and the performance of top finishers against the masses provides insights into the competitive landscape of the marathon. It can identify outliers or exceptional performances and understand how elite athletes compare to average participants. Although not directly connected to this data, analyses like these can inform training strategies, highlight the effectiveness of different preparation methods, and inspire both new and experienced runners by showcasing the range of achievable performances.\n\n\n\n\n\n\nActivity Length\n\n\n\n\n\nThis activity would be suitable for an in-class example or quiz.\n\n\n\n\n\n\n\n\n\nLearning Objectives\n\n\n\n\n\nBy the end of the activity, you will be able to:\n\nAnalyze distributions using histograms\nIdentify potential confounding variables to explain bimodal data\nCompare and contrast distributions for a pair of groups\nCalculate and compare z-scores for individual cases\n\n\n\n\n\n\n\n\n\n\nMethods\n\n\n\n\n\nFor this activity, students will primarily use basic concepts of histograms and summary statistics to analyze distributions. Students will also likely require knowledge of z-scores.\n\n\n\n\n\n\n\n\n\nTechnology Requiremens\n\n\n\n\n\nThe provided worksheets do not require any specific statistical software. (Although they will likely require access to a calculator.)\nSince the data are provided, instructors are encouraged to modify the worksheets to have student construct visualizations and calculate summary statistics using whichever software they choose.\n\n\n\n\n\n\nThe data set contains 26598 rows and 15 columns. Each row represents a runner who completed the Boston Marathon in 2023\nDownload data: boston_marathon_2023.csv\n\n\nVariable Descriptions\n\n\n\n\n\n\n\n\nVariable\nDescription\n\n\n\n\nage_group\nage group of the runner\n\n\nplace_overall\nfinishing place of the runner out of all runners\n\n\nplace_gender\nfinishing place of runner among the same gender\n\n\nplace_division\nfinishing place of runner among runners of the same gender and age group\n\n\nname\nname of runner\n\n\ngender\ngender of runner\n\n\nteam\nteam the runner is affiliated with\n\n\nbib_number\nbib number of runner\n\n\nhalf_time\nhalf marathon time of runner\n\n\nfinish_net\nfinishing time timed from when they cross the starting gate\n\n\nfinish_gun\nfinishing time of runner timed from when the starter gun is fired\n\n\nhalf_time_sec\nhalf marathon time in seconds\n\n\nfinish_net_sec\nnet finish in seconds\n\n\nfinish_gun_sec\ngun finish in seconds\n\n\nfinish_net_minutes\nnet finish in minutes\n\n\n\nData Source\nBoston Athletic Association\n\n\n\n\nClass handout\nClass handout - with solutions\n\n\n\n\n\n\nConclusion\n\n\n\n\n\nIn conclusion, the Boston Marathon Times worksheet provides valuable learning opportunities for students in several key areas. It allows them to understand reasons by variability might exist and to discover multimodal distributions can occur simply due to excluding an important explanatory variable that otherwise confounds the analysis. The calculation of z-scores or other similar measurement of relative location enables students to compare and contrast the remarkable achievements of the top female and male finishers, shedding light on their talent in their respective fields. Overall, this worksheet allows students to critically analyze the 2023 marathon result data and draw meaningful conclusions about the extraordinary performances of athletes in the race.\n\n\n\n\n\n\nIvan Ramler (St. Lawrence University), Jack Fay (St. Lawrence University)",
+    "crumbs": [
+      "Home",
+      "Marathons",
+      "2023 Boston Marathon - Variability in Finish Times"
+    ]
+  },
+  {
+    "objectID": "hockey/nhl-shooting-percentage-ventura.html",
+    "href": "hockey/nhl-shooting-percentage-ventura.html",
+    "title": "Predicting NHL Shooting Percentages",
+    "section": "",
+    "text": "https://isle.stat.cmu.edu/SCORE/NHLShots/",
+    "crumbs": [
+      "Home",
+      "Hockey",
+      "Predicting NHL Shooting Percentages"
+    ]
+  },
+  {
+    "objectID": "hockey/nhl-shooting-percentage-ventura.html#module",
+    "href": "hockey/nhl-shooting-percentage-ventura.html#module",
+    "title": "Predicting NHL Shooting Percentages",
+    "section": "",
+    "text": "https://isle.stat.cmu.edu/SCORE/NHLShots/",
+    "crumbs": [
+      "Home",
+      "Hockey",
+      "Predicting NHL Shooting Percentages"
+    ]
+  },
+  {
+    "objectID": "baseball/unbreakable-records.html",
+    "href": "baseball/unbreakable-records.html",
+    "title": "Unbreakable Records in Baseball",
+    "section": "",
+    "text": "This lesson introduces students to the Bernoulli trial and Binomial Experiments to understand the probability of breaking one of the longest lasting records in baseball. We also explain how to execute a Chi-Square test using baseball data on handedness (right or left-handed) of batters versus pitchers.",
+    "crumbs": [
+      "Home",
+      "Baseball",
+      "Unbreakable Records in Baseball"
+    ]
+  },
+  {
+    "objectID": "baseball/unbreakable-records.html#motivation",
+    "href": "baseball/unbreakable-records.html#motivation",
+    "title": "Unbreakable Records in Baseball",
+    "section": "",
+    "text": "This lesson introduces students to the Bernoulli trial and Binomial Experiments to understand the probability of breaking one of the longest lasting records in baseball. We also explain how to execute a Chi-Square test using baseball data on handedness (right or left-handed) of batters versus pitchers.",
+    "crumbs": [
+      "Home",
+      "Baseball",
+      "Unbreakable Records in Baseball"
+    ]
+  },
+  {
+    "objectID": "baseball/unbreakable-records.html#module",
+    "href": "baseball/unbreakable-records.html#module",
+    "title": "Unbreakable Records in Baseball",
+    "section": "Module",
+    "text": "Module\nhttps://isle.stat.cmu.edu/SCORE/Unbreakable_Records_Baseball_Hits/",
+    "crumbs": [
+      "Home",
+      "Baseball",
+      "Unbreakable Records in Baseball"
+    ]
+  },
+  {
+    "objectID": "baseball/stolen-bases.html",
+    "href": "baseball/stolen-bases.html",
+    "title": "Stolen Bases",
+    "section": "",
+    "text": "This lesson introduces students to the concept of normality tests (Shapiro-Wilks and Kolmogorov-Smirnov) and summation of normal distributions to investigate stolen base success rates. Featuring Jacob Hurtubise, a West Point’s all-time leader in stolen bases and baseball player for the Cincinnati Reds’ Double-A affiliate, the Chattanooga Lookouts.",
+    "crumbs": [
+      "Home",
+      "Baseball",
+      "Stolen Bases"
+    ]
+  },
+  {
+    "objectID": "baseball/stolen-bases.html#motivation",
+    "href": "baseball/stolen-bases.html#motivation",
+    "title": "Stolen Bases",
+    "section": "",
+    "text": "This lesson introduces students to the concept of normality tests (Shapiro-Wilks and Kolmogorov-Smirnov) and summation of normal distributions to investigate stolen base success rates. Featuring Jacob Hurtubise, a West Point’s all-time leader in stolen bases and baseball player for the Cincinnati Reds’ Double-A affiliate, the Chattanooga Lookouts.",
+    "crumbs": [
+      "Home",
+      "Baseball",
+      "Stolen Bases"
+    ]
+  },
+  {
+    "objectID": "baseball/stolen-bases.html#module",
+    "href": "baseball/stolen-bases.html#module",
+    "title": "Stolen Bases",
+    "section": "Module",
+    "text": "Module\nhttps://isle.stat.cmu.edu/SCORE/stolen-bases-module/",
+    "crumbs": [
+      "Home",
+      "Baseball",
+      "Stolen Bases"
+    ]
+  },
+  {
+    "objectID": "by-statsds-topic.html",
+    "href": "by-statsds-topic.html",
+    "title": "Modules By Topic",
+    "section": "",
+    "text": "2023 Boston Marathon - Variability in Finish Times\n\n\n\n\n\n\nhistograms\n\n\nsummary statistics\n\n\nbimodal data\n\n\n\nDescribing finish time for runners in the 2023 Boston Marathon\n\n\n\n\n\nMay 13, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nIronman Triathlete Performance\n\n\n\n\n\n\nScatterplots\n\n\nCorrelation\n\n\n\nGaining insight into the performance patterns of triathletes by exploring the relationships between swimming, biking, and running times.\n\n\n\n\n\nJul 23, 2023\n\n\nMichael Schuckers, Matt Abell, AJ Dykstra, Sarah Weaver, Ivan Ramler, and Robin Lock\n\n\n\n\n\n\n\n\n\n\n\n\nMarathon Record-Setting Over Time\n\n\n\n\n\n\nExponential distribution\n\n\nPoisson process\n\n\n\nDetermining whether the setting of world records in the marathon is historically a Poisson process.\n\n\n\n\n\nJul 23, 2023\n\n\nNicholas Clark, Rodney Sturdivant, and Kate Sanborn\n\n\n\n\n\n\n\n\n\n\n\n\nPredicting NHL Shooting Percentages\n\n\n\n\n\n\nlinear regression\n\n\n\nAn Introduction to Simple Linear Regression\n\n\n\n\n\nJul 23, 2023\n\n\nSam Ventura\n\n\n\n\n\n\n\n\n\n\n\n\nStolen Bases\n\n\n\n\n\n\nNormality tests\n\n\n\n\n\n\n\n\n\nJul 23, 2023\n\n\nAndrew Lee and Jacob Hurtubise\n\n\n\n\n\n\n\n\n\n\n\n\nUnbreakable Records in Baseball\n\n\n\n\n\n\nBernoulli distribution\n\n\nBinomial distribution\n\n\nChi-Square Test\n\n\n\n\n\n\n\n\n\nJul 23, 2023\n\n\nAndrew Lee and Fr Gabriel Costa\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Home",
+      "Modules By Topic"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "SCORE Module Repository",
+    "section": "",
+    "text": "The SCORE Network Module Repository enables you to search for modules by either sport (along the left), or you can browse by statistics and data science topic.\nThe development of the SCORE with Data network is funded by the National Science Foundation (award 2142705)."
+  },
+  {
+    "objectID": "marathons/marathon-records.html",
+    "href": "marathons/marathon-records.html",
+    "title": "Marathon Record-Setting Over Time",
+    "section": "",
+    "text": "https://isle.stat.cmu.edu/SCORE/Marathons_SCORE_Template/",
+    "crumbs": [
+      "Home",
+      "Marathons",
+      "Marathon Record-Setting Over Time"
+    ]
+  },
+  {
+    "objectID": "marathons/marathon-records.html#module",
+    "href": "marathons/marathon-records.html#module",
+    "title": "Marathon Record-Setting Over Time",
+    "section": "",
+    "text": "https://isle.stat.cmu.edu/SCORE/Marathons_SCORE_Template/",
+    "crumbs": [
+      "Home",
+      "Marathons",
+      "Marathon Record-Setting Over Time"
+    ]
+  }
+]
