@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - "_resources/*"
 
 website:
   title: "SCORE Module Repository"
