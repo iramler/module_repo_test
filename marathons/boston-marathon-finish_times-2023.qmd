@@ -1,6 +1,14 @@
 ---
 title: "2023 Boston Marathon - Variability in Finish Times"
-authors: Ivan Ramler, Jack Fay
+author:
+  - name: Ivan Ramler
+    email: iramler@stlawu.edu
+    affiliation:
+      - id: slu
+        name: St. Lawrence University
+  - name: Jack Fay
+    affiliation:
+      - ref: slu
 date: May 13, 2024
 description: Describing finish time for runners in the 2023 Boston Marathon
 categories:
