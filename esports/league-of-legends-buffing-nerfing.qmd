@@ -22,6 +22,7 @@ categories:
   - summary statistics
 ---
 
+
 ### Welcome video
 
 {{< video https://youtu.be/5ZeK3RCg-_A title="Esports Analytics" >}}
@@ -60,9 +61,11 @@ Technology requirement: The activity handout provides histograms and summary sta
 
 A data frame for 162 champions of the following 7 variables. Each row represents a Champion that you can choose when playing League of Legends during patches 12.22 and 12.23. Note that the activity provided in this module does not use all of the variables provided. Instead they are provided for further analyses at the discretion of the user.
 
-Download data: [LOL_patch_12.22.csv](../resources/league-of-legends-buffing-nerfing/LOL_patch_12.22.csv)
+Available on the [SCORE Data Repository](https://data.scorenetwork.org/)
 
-Download data: [LOL_patch_12.23.csv](../resources/league-of-legends-buffing-nerfing/LOL_patch_12.23.csv)
+Download data: [LOL_patch_12.22.csv](https://raw.githubusercontent.com/SCOREnetworkorg/sports-data-repository/main/data/LOL_patch_12.22.csv)
+
+Download data: [LOL_patch_12.23.csv](https://raw.githubusercontent.com/SCOREnetworkorg/sports-data-repository/main/data/LOL_patch_12.23.csv)
 
 <details>
 
@@ -88,9 +91,9 @@ Lol champion stats, 12.23 master, win rates. METAsrc. (n.d.-b). <https://www.met
 
 ### Materials
 
-[Class handout](../resources/league-of-legends-buffing-nerfing/LoL_Worksheet.docx)
+[Class handout](../module_resources/league-of-legends-buffing-nerfing/LoL_Worksheet.docx)
 
-[Class handout - with solutions](../resources/league-of-legends-buffing-nerfing/LoL_Worksheet_Key.docx)
+[Class handout - with solutions](../module_resources/league-of-legends-buffing-nerfing/LoL_Worksheet_Key.docx)
 
 ::: {.callout-note collapse="true" title="Conclusion" appearance="minimal"}
 In conclusion, the analysis of Win Rates histograms in League of Legends has provided valuable insights into champion balance and performance. One notable finding from this worksheet is the identification of Sion as a low outlier in the Win Rates for the 12.22 patch. However, in the subsequent 12.23 patch, Sion's Win Rate improved, and was no longer an outlier. Sion was given a Buff in [patch 12.23](https://www.leagueoflegends.com/en-gb/news/game-updates/patch-12-23-notes/){target="_blank"}, resulting in an enhanced performance and a more balanced Win Rate. However, patch 12.23 resulted in two new outliers with low win rates.
