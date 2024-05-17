@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  render: 
+    - "*.qmd"
+    - "!module_resources/*/*.qmd"
   resources:
     - "module_resources"
 

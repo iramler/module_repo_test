@@ -6,8 +6,12 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Eric Seltzer">
+<meta name="author" content="Ivan Ramler">
+<meta name="dcterms.date" content="2024-03-08">
+<meta name="description" content="Demonstrating how to clean data with different packages and summarise the data using dplyr.">
 
-<title>SCORE Module Repository</title>
+<title>SCORE Module Repository - Beijing 2022 Olympics - Cleaning and Summarizing Data</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +27,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/cookie-consent/cookie-consent.js"></script>
-<link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -97,7 +101,7 @@ cookieconsent.run({
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">SCORE Module Repository</span>
     </a>
   </div>
@@ -108,11 +112,11 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./by-statsds-topic.html"> 
+    <a class="nav-link active" href="../by-statsds-topic.html" aria-current="page"> 
 <span class="menu-text">Modules By Topic</span></a>
   </li>  
   <li class="nav-item">
@@ -142,7 +146,7 @@ cookieconsent.run({
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">SCORE Module Repository</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../multi_sports/beijing_olympics_medals_and_athletes.html">Multi Sports</a></li><li class="breadcrumb-item"><a href="../multi_sports/beijing_olympics_medals_and_athletes.html">Beijing 2022 Olympics - Cleaning and Summarizing Data</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -156,7 +160,7 @@ cookieconsent.run({
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./by-statsds-topic.html" class="sidebar-item-text sidebar-link">
+  <a href="../by-statsds-topic.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Modules By Topic</span></a>
   </div>
 </li>
@@ -171,13 +175,13 @@ cookieconsent.run({
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./baseball/stolen-bases.html" class="sidebar-item-text sidebar-link">
+  <a href="../baseball/stolen-bases.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Stolen Bases</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./baseball/unbreakable-records.html" class="sidebar-item-text sidebar-link">
+  <a href="../baseball/unbreakable-records.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Unbreakable Records in Baseball</span></a>
   </div>
 </li>
@@ -194,7 +198,7 @@ cookieconsent.run({
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./esports/league-of-legends-buffing-nerfing.html" class="sidebar-item-text sidebar-link">
+  <a href="../esports/league-of-legends-buffing-nerfing.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">League of Legends - Buffing and Nerfing</span></a>
   </div>
 </li>
@@ -211,7 +215,7 @@ cookieconsent.run({
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hockey/nhl-shooting-percentage-ventura.html" class="sidebar-item-text sidebar-link">
+  <a href="../hockey/nhl-shooting-percentage-ventura.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Predicting NHL Shooting Percentages</span></a>
   </div>
 </li>
@@ -228,13 +232,13 @@ cookieconsent.run({
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./marathons/boston-marathon-finish_times-2023.html" class="sidebar-item-text sidebar-link">
+  <a href="../marathons/boston-marathon-finish_times-2023.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">2023 Boston Marathon - Variability in Finish Times</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./marathons/marathon-records.html" class="sidebar-item-text sidebar-link">
+  <a href="../marathons/marathon-records.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Marathon Record-Setting Over Time</span></a>
   </div>
 </li>
@@ -242,16 +246,16 @@ cookieconsent.run({
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
  <span class="menu-text">Multi Sports</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./multi_sports/beijing_olympics_medals_and_athletes.html" class="sidebar-item-text sidebar-link">
+  <a href="../multi_sports/beijing_olympics_medals_and_athletes.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Beijing 2022 Olympics - Cleaning and Summarizing Data</span></a>
   </div>
 </li>
@@ -268,7 +272,7 @@ cookieconsent.run({
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./triathlons/ironman-triathlete-performance.html" class="sidebar-item-text sidebar-link">
+  <a href="../triathlons/ironman-triathlete-performance.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Ironman Triathlete Performance</span></a>
   </div>
 </li>
@@ -280,21 +284,66 @@ cookieconsent.run({
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
+  <li><a href="#materials" id="toc-materials" class="nav-link" data-scroll-target="#materials">Materials</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../multi_sports/beijing_olympics_medals_and_athletes.html">Multi Sports</a></li><li class="breadcrumb-item"><a href="../multi_sports/beijing_olympics_medals_and_athletes.html">Beijing 2022 Olympics - Cleaning and Summarizing Data</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">SCORE Module Repository</h1>
+<h1 class="title">Beijing 2022 Olympics - Cleaning and Summarizing Data</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Data cleaning</div>
+    <div class="quarto-category">Summarization</div>
+    <div class="quarto-category">Merging</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Demonstrating how to clean data with different packages and summarise the data using dplyr.
+  </div>
 </div>
 
-
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Authors</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Eric Seltzer </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            St.&nbsp;Lawrence University
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author">Ivan Ramler <a href="mailto:iramler@stlawu.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            St.&nbsp;Lawrence University
+          </p>
+      </div>
+  </div>
 
 <div class="quarto-title-meta">
 
-    
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 8, 2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -304,10 +353,225 @@ cookieconsent.run({
 </header>
 
 
-<p>The <a href="https://scorenetwork.org/index.html">SCORE Network</a> Module Repository enables you to search for modules by either sport (along the left), or you can browse <a href="./by-statsds-topic.html">by statistics and data science topic</a>.</p>
-<p><em>The development of the SCORE with Data network is funded by the National Science Foundation (award 2142705).</em></p>
+<section id="introduction" class="level3">
+<h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
+<p>The Winter Olympics is an event hosted every 4 years last hosted in Beijing in 2022. In the 2022 Olympics, there were a total of 109 events across 15 <a href="https://en.wikipedia.org/wiki/2022_Winter_Olympics#:~:text=.%5B62%5D-,Sports,-%5Bedit%5D" target="_blank">disciplines</a>. It also has any more information on the Beijing 2022 Olympics you might be looking for. As the whole goal of the Olympics is to win as many medals as you can, everything is tracked. From the athlete, where they were born, if they won, their height, how many medals they won. This provides large data sets that are very interesting to look at.</p>
+<p>In this worksheet, we will look at some of these data sets and learn how to clean them into tidy formats and use these cleaned data to investigate questions such as which country won the most medals. Cleaning and manipulating data sets is a key component to your Data Science journey and opens many doors for what you can learn in the future.</p>
+<div class="callout callout-style-simple callout-note no-icon callout-titled" title="Learning Objectives">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Learning Objectives
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>By the end of this activity, you will be able to:</p>
+<ol type="1">
+<li><p>Understand how to deal with columns that have incorrect variable types.</p></li>
+<li><p>Describe what is considered a tidy data set.</p></li>
+<li><p>Manipulate variables into either new variables, or changed versions of themselves.</p></li>
+<li><p>Summarize key points and provide interpretations for these points.</p></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled" title="Methods">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Methods
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Technology requirement: The activity handout provides examples of how to clean and summarize data. For this, the use of R Studio is required and we will be using a quarto document. However, the activity could be modified to ask students to produce that information from the raw dataset and/or extend the activity to investigate other variables available in the data.</p>
+<ol type="1">
+<li><p>RStudio Packages: Familiarity with packages within RStudio. The most used one being dplyr, as well as some other packages that need to be used in order to manipulate variables. You should understand how to use functions within dplyr at a basic level</p></li>
+<li><p>Tidy Data: You should understand what it means for a data set to be tidy, there is a general definition of requirements for what this means.</p></li>
+<li><p>Knowledge of joining and summarizing data, this can be done using dplyr functions. The outcomes of what these different functions do should be understood.</p></li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+<section id="data" class="level3">
+<h3 class="anchored" data-anchor-id="data">Data</h3>
+<p>There are two data sets here, athletes and medals.The first athletes contains information on individual athletes. Each row in this data set represents a different athlete that competed at the Beijing 2022 Olympic Winter Games. This data set has 2897 rows and 14 columns.</p>
+<p>Download non tidy data: <a href="../module_resources/beijing_olympics_medals_and_athletes/athletes.csv">athletes.csv</a></p>
+<p><strong>Athletes</strong></p>
+<details>
+<summary>
+<b>Variable Descriptions</b>
+</summary>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Variable</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>name</td>
+<td>Athlete Name</td>
+</tr>
+<tr class="even">
+<td>short_name</td>
+<td>Athlete Name(short)</td>
+</tr>
+<tr class="odd">
+<td>gender</td>
+<td>Athlete Gender</td>
+</tr>
+<tr class="even">
+<td>birth_date</td>
+<td>Athlete Date of Birthday</td>
+</tr>
+<tr class="odd">
+<td>birth_place</td>
+<td>Athlete Place of Birthday</td>
+</tr>
+<tr class="even">
+<td>birth_country</td>
+<td>Athlete Country of Birthday</td>
+</tr>
+<tr class="odd">
+<td>country</td>
+<td>Athlete Country</td>
+</tr>
+<tr class="even">
+<td>country_code</td>
+<td>Athlete Country Code</td>
+</tr>
+<tr class="odd">
+<td>discipline</td>
+<td>Discipline</td>
+</tr>
+<tr class="even">
+<td>discipline_code</td>
+<td>Discipline Code</td>
+</tr>
+<tr class="odd">
+<td>residence_place</td>
+<td>Athlete Residence Place</td>
+</tr>
+<tr class="even">
+<td>residence_country</td>
+<td>Athlete Residence Country</td>
+</tr>
+<tr class="odd">
+<td>height_m/ft</td>
+<td>Athlete Height (meters and feet)</td>
+</tr>
+<tr class="even">
+<td>url</td>
+<td>Athlete Profile Link</td>
+</tr>
+</tbody>
+</table>
+</details>
+<p>The second medals contains information on medal winners. Each row in this data set represents a medal won in the Beijing 2022 Olympic Winter Games. This can mean Gold, Bronze, or Silver medals. This data set has 694 rows and 12 columns.</p>
+<p>Download non tidy data: <a href="../module_resources/beijing_olympics_medals_and_athletes/medals.csv">medals.csv</a></p>
+<p>Download tidy data: <a href="../module_resources/beijing_olympics_medals_and_athletes/medalsTidy.csv">medalsTidy.csv</a></p>
+<p><strong>Medals</strong></p>
+<details>
+<summary>
+<b>Variable Descriptions</b>
+</summary>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Variable</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>medal_type</td>
+<td>Medal Type (Gold, Bronze, Silver)</td>
+</tr>
+<tr class="even">
+<td>medal_code</td>
+<td>Medal Number (1, 2, 3)</td>
+</tr>
+<tr class="odd">
+<td>medal_date</td>
+<td>Date Medal Won</td>
+</tr>
+<tr class="even">
+<td>athlete_short_name</td>
+<td>Athlete Name (Short)</td>
+</tr>
+<tr class="odd">
+<td>athlete_name</td>
+<td>Athlete Name</td>
+</tr>
+<tr class="even">
+<td>athlete_sex</td>
+<td>Athlete Gender</td>
+</tr>
+<tr class="odd">
+<td>athlete_link</td>
+<td>Athlete Profile Link</td>
+</tr>
+<tr class="even">
+<td>event</td>
+<td>Event Competed In</td>
+</tr>
+<tr class="odd">
+<td>country</td>
+<td>Country</td>
+</tr>
+<tr class="even">
+<td>country_code</td>
+<td>Country Code</td>
+</tr>
+<tr class="odd">
+<td>discipline</td>
+<td>Discipline</td>
+</tr>
+<tr class="even">
+<td>discipline_code</td>
+<td>Discipline Code</td>
+</tr>
+</tbody>
+</table>
+</details>
+<section id="data-source" class="level4">
+<h4 class="anchored" data-anchor-id="data-source">Data Source</h4>
+<p><a href="https://www.kaggle.com/datasets/piterfm/beijing-2022-olympics?resource=download" target="_blank">Beijing 2022 Winter Olympic Games</a></p>
+</section>
+</section>
+<section id="materials" class="level3">
+<h3 class="anchored" data-anchor-id="materials">Materials</h3>
+<p><a href="../module_resources/beijing_olympics_medals_and_athletes/Class-Handout.qmd">Class Handout</a></p>
+<p><a href="../module_resources/beijing_olympics_medals_and_athletes/Class-Handout-Solutions.qmd">Class Handout - Solutions</a></p>
+<div class="callout callout-style-simple callout-note no-icon callout-titled" title="Conclusion">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Conclusion
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Forthcoming</p>
+</div>
+</div>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
