@@ -18,14 +18,14 @@ description: Investigating game play statistics for League of Legends champions 
 editor: 
   canonical: true
 categories:
-  - outliers
-  - summary statistics
+  - Outliers
+  - Summary statistics
 ---
 
 
 ### Welcome video
 
-{{< video https://youtu.be/5ZeK3RCg-_A title="Esports Analytics" >}}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5ZeK3RCg-_A?si=x44sYGRRe64oidU_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Introduction
 
