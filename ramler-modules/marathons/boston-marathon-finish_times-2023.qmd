@@ -21,24 +21,6 @@ categories:
 
 {{< video https://youtu.be/5-aLUUAz6Hk?si=qK-sOO9fC2ziTpD_ title="SCORE: Boston Marathon Finish Times" >}}
 
-
-### Welcome video - second attempt
-
-{{< video https://www.youtube.com/watch?v=5-aLUUAz6Hk >}}
-
-
-### Welcome video - third attempt
-
-{{< video https://www.youtube.com/embed/5-aLUUAz6Hk?si=Ob4Ocm6gp1wIL6xD >}}
-
-
-### Welcome video - iframe style
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5-aLUUAz6Hk?si=Ob4Ocm6gp1wIL6xD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
-
-
 ### Introduction
 
 For this activity, you will be exploring the result times from female and male runners that finished the 2023 [Boston Marathon](https://www.baa.org/races/boston-marathon){target="_blank"}. 
