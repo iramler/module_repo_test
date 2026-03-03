@@ -109,4 +109,6 @@ Sample solutions to the worksheets
 Students should find evidence to support the claim that. in general, putting statistics tend to be better predictors of tournament success than driving statistics. So golfers really do "drive for show, but putt for dough".
 :::
 
+### Recommended Citation
+Bigness, A. &amp; Lock, R (2026 February 25) PGA Drive for Show, Putt for Dough. "The SCORE Network." [https://doi.org/10.17605/OSF.IO/VHDBE](https://doi.org/10.17605/OSF.IO/VHDBE)
 
