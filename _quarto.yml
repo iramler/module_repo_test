@@ -45,7 +45,7 @@ website:
   sidebar:
     contents: auto
     collapse-level: 1
-  repo-url: https://github.com/SCOREnetworkorg/module-repository
+  repo-url: https://github.com/iramler/module_repo_test
   repo-actions: [issue]
 
 format:
