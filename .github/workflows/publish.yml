@@ -61,7 +61,11 @@ jobs:
       - name: Build sport and sidebar pages
         run: Rscript build_sport_pages.R && Rscript build_sidebar_yaml.R
 
+
       # 6 ▸ Render the site and publish to gh-pages
+      - name: Render site
+        run: quarto render
+
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
