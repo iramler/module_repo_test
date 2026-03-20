@@ -45,6 +45,7 @@ jobs:
             any::flextable
             any::webexercises
             any::survminer
+            any::pwr
             any::rmarkdown
             any::knitr
             any::quarto
