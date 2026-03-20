@@ -1,0 +1,186 @@
+[
+  {
+    "listing": "/by-statsds-topic.html",
+    "items": [
+      "/golf/pga_drive_show_putt_dough/index.html",
+      "/fitness_and_training/dumbbell_barbell_bench_ratio/index.html",
+      "/pickleball/pickleball_one-proportion-ci/index.html",
+      "/games/BlackJack/index.html",
+      "/mixed_martial_arts/mma_interrater_reliability/index.html",
+      "/rowing/olympic_rowing_datawrangling/index.html",
+      "/rowing/olympic_rowing_introstat/index.html",
+      "/obstacle_competitions/american_ninja_warrior/index.html",
+      "/soccer/expected_goals/index.html",
+      "/soccer/mls_decision_errors/index.html",
+      "/golf/pga_masters/index.html",
+      "/golf/pga_masters_nor/index.html",
+      "/tennis/Teaching_ANOVA_Through_Aces/index.html",
+      "/baseball/mlb_injuries/index.html",
+      "/baseball/mlb_prime_age/index.html",
+      "/football/nfl-elo-ratings/index.html",
+      "/marathons/boston-marathon-finish_times-2023/index.html",
+      "/robotics/FIRST_Robotics_Competition/index.html",
+      "/esports/league-of-legends-buffing-nerfing/index.html",
+      "/lacrosse/college_lacrosse_faceoffs/index.html",
+      "/lacrosse/lacrosse_pll_vs_nll/index.html",
+      "/motor_sports/nascar_regression_transformation/index.html",
+      "/triathlons/ironman-lakeplacid-mlr/index.html",
+      "/baseball/stolen-bases/index.html",
+      "/baseball/unbreakable-records/index.html",
+      "/hockey/nhl-shooting-percentage-ventura/index.html",
+      "/marathons/marathon-records/index.html",
+      "/triathlons/ironman-triathlete-performance/index.html"
+    ]
+  },
+  {
+    "listing": "/tennis/index.html",
+    "items": [
+      "/tennis/Teaching_ANOVA_Through_Aces/index.html"
+    ]
+  },
+  {
+    "listing": "/robotics/index.html",
+    "items": [
+      "/robotics/FIRST_Robotics_Competition/index.html"
+    ]
+  },
+  {
+    "listing": "/obstacle_competitions/index.html",
+    "items": [
+      "/obstacle_competitions/american_ninja_warrior/index.html"
+    ]
+  },
+  {
+    "listing": "/lacrosse/index.html",
+    "items": [
+      "/lacrosse/college_lacrosse_faceoffs/index.html",
+      "/lacrosse/lacrosse_pll_vs_nll/index.html"
+    ]
+  },
+  {
+    "listing": "/games/index.html",
+    "items": [
+      "/games/BlackJack/index.html"
+    ]
+  },
+  {
+    "listing": "/fitness_and_training/index.html",
+    "items": [
+      "/fitness_and_training/dumbbell_barbell_bench_ratio/index.html"
+    ]
+  },
+  {
+    "listing": "/baseball/index.html",
+    "items": [
+      "/baseball/mlb_injuries/index.html",
+      "/baseball/mlb_prime_age/index.html",
+      "/baseball/stolen-bases/index.html",
+      "/baseball/unbreakable-records/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/golf/pga_drive_show_putt_dough/index.html",
+      "/fitness_and_training/dumbbell_barbell_bench_ratio/index.html",
+      "/pickleball/pickleball_one-proportion-ci/index.html",
+      "/games/BlackJack/index.html",
+      "/mixed_martial_arts/mma_interrater_reliability/index.html",
+      "/rowing/olympic_rowing_datawrangling/index.html",
+      "/rowing/olympic_rowing_introstat/index.html",
+      "/obstacle_competitions/american_ninja_warrior/index.html",
+      "/soccer/expected_goals/index.html",
+      "/soccer/mls_decision_errors/index.html",
+      "/golf/pga_masters/index.html",
+      "/golf/pga_masters_nor/index.html",
+      "/tennis/Teaching_ANOVA_Through_Aces/index.html",
+      "/baseball/mlb_injuries/index.html",
+      "/baseball/mlb_prime_age/index.html",
+      "/football/nfl-elo-ratings/index.html",
+      "/marathons/boston-marathon-finish_times-2023/index.html",
+      "/robotics/FIRST_Robotics_Competition/index.html",
+      "/esports/league-of-legends-buffing-nerfing/index.html",
+      "/lacrosse/college_lacrosse_faceoffs/index.html",
+      "/lacrosse/lacrosse_pll_vs_nll/index.html",
+      "/motor_sports/nascar_regression_transformation/index.html",
+      "/triathlons/ironman-lakeplacid-mlr/index.html",
+      "/baseball/stolen-bases/index.html",
+      "/baseball/unbreakable-records/index.html",
+      "/hockey/nhl-shooting-percentage-ventura/index.html",
+      "/marathons/marathon-records/index.html",
+      "/triathlons/ironman-triathlete-performance/index.html"
+    ]
+  },
+  {
+    "listing": "/esports/index.html",
+    "items": [
+      "/esports/league-of-legends-buffing-nerfing/index.html"
+    ]
+  },
+  {
+    "listing": "/football/index.html",
+    "items": [
+      "/football/nfl-elo-ratings/index.html"
+    ]
+  },
+  {
+    "listing": "/golf/index.html",
+    "items": [
+      "/golf/pga_drive_show_putt_dough/index.html",
+      "/golf/pga_masters/index.html",
+      "/golf/pga_masters_nor/index.html"
+    ]
+  },
+  {
+    "listing": "/hockey/index.html",
+    "items": [
+      "/hockey/nhl-shooting-percentage-ventura/index.html"
+    ]
+  },
+  {
+    "listing": "/marathons/index.html",
+    "items": [
+      "/marathons/boston-marathon-finish_times-2023/index.html",
+      "/marathons/marathon-records/index.html"
+    ]
+  },
+  {
+    "listing": "/mixed_martial_arts/index.html",
+    "items": [
+      "/mixed_martial_arts/mma_interrater_reliability/index.html"
+    ]
+  },
+  {
+    "listing": "/motor_sports/index.html",
+    "items": [
+      "/motor_sports/nascar_regression_transformation/index.html"
+    ]
+  },
+  {
+    "listing": "/pickleball/index.html",
+    "items": [
+      "/pickleball/pickleball_one-proportion-ci/index.html"
+    ]
+  },
+  {
+    "listing": "/rowing/index.html",
+    "items": [
+      "/rowing/olympic_rowing_datawrangling/index.html",
+      "/rowing/olympic_rowing_introstat/index.html"
+    ]
+  },
+  {
+    "listing": "/soccer/index.html",
+    "items": [
+      "/soccer/expected_goals/index.html",
+      "/soccer/mls_decision_errors/index.html"
+    ]
+  },
+  {
+    "listing": "/triathlons/index.html",
+    "items": [
+      "/triathlons/ironman-lakeplacid-mlr/index.html",
+      "/triathlons/ironman-triathlete-performance/index.html"
+    ]
+  }
+]
